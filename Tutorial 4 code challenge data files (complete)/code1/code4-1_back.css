@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 4
+   Coding Challenge 1
+
+   Author: Alex Monteverde
+   Date:   3/23/21
+
+   Filename: code4-1_back.css
+
+*/
+figure {
+  padding: 20px;
+  border-width: 20px;
+  border-style: ridge;
+  border-color: rgb(52,52,180);
+  background: no-repeat bottom right/45% url(ws.png), rgba(52,52,180,0.3);
+  box-shadow: 5px 10px 15px;
+}
+figcaption {
+  font-size: 1.8em;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(52,52,180);
+  border-top: rgba(52,52,180,0.3);
+  border-left: rgba(52,52,180,0.3);
+  border-right: rgba(52,52,180,0.3)
+
+}

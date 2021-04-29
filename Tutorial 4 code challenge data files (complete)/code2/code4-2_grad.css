@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 4
+   Coding Challenge 2
+
+   Author: Alex Monteverde
+   Date:   3/23/21
+
+   Filename: code4-2_grad.css
+
+*/
+
+h1 {
+  text-shadow: -2px -2px 3px white;
+}
+
+h2 {
+  text-shadow: -2px -2px 3px white;
+}
+p {
+  text-shadow: 2px 2px 3px red;
+}
+article {
+  box-shadow: 0px 0px 50px 20px black inset;
+  border-radius: 150px;
+  background: no-repeat bottom right/100% url(landscape.png), no-repeat linear-gradient(165deg, black, rgb(0,0,200) 65%, rgb(211,0,55) 75%, orange 80%, yellow 82%);
+}

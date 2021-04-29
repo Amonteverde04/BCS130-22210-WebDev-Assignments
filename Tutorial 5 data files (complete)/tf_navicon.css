@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*
+Filename: tf_navicon.css
+Author:
+Date:
+*/
+
+/* ===========
+   Base Styles
+   ===========
+*/
+a#navicon {
+  display: none;
+}
+
+/* ===============================
+   Mobile Devices: 0 to 480px
+   ===============================
+*/
+
+@media only screen and (max-width: 480px) {
+
+  a#navicon {
+    display: block;
+  }
+
+  nav.horizontal ul {
+    display: none;
+  }
+
+  a#navicon:hover+ul, nav.horizontal ul:hover {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BCS 130 SLN Fall 2017 */
